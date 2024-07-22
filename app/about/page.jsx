@@ -15,7 +15,7 @@ export default function AboutPage() {
               I am a Computer Science undergraduate at Galgotias University with a CGPA of 8.34. I have a strong foundation in programming languages and technologies:
             </p>
             <ul className="list-disc pl-6 mb-6">
-              <li className="mb-2 text-blue-600 font-semibold">Programming Languages: <span className="text-gray-600">Java, Python, C/C++</span></li>
+              <li className="mb-2 text-blue-600 font-semibold">Programming Languages: <span className="text-gray-600">Java</span></li>
               <li className="mb-2 text-blue-600 font-semibold">Front-End: <span className="text-gray-600">JavaScript, React.js, Next.js</span></li>
               <li className="mb-2 text-blue-600 font-semibold">Back-End: <span className="text-gray-600">Node.js, Express.js</span></li>
               <li className="mb-2 text-blue-600 font-semibold">Database: <span className="text-gray-600">MongoDB</span></li>
