@@ -19,7 +19,7 @@ export default function AboutPage() {
           </div>
           {/* Text */}
           <div className="md:ml-8">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Hi, I'm Shivam Sinha</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Hi, I&apos;m Shivam Sinha</h3>
             <p className="text-lg text-gray-700 mb-4">
               A passionate Computer Science undergraduate with a knack for building innovative solutions.
             </p>

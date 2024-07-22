@@ -1,11 +1,11 @@
-// app/home/page.js
+// app/page.js
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 via-blue-200 to-blue-300 text-center py-12">
-      <div className="text-center px-6 md:px-12 max-w-4xl mx-auto z-10">
+    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 via-blue-200 to-blue-300 text-center py-12 relative">
+      <div className="text-center px-6 md:px-12 max-w-4xl mx-auto">
         {/* Photo */}
         <div className="relative w-40 h-40 mx-auto mb-6">
           <Image
@@ -18,7 +18,7 @@ export default function HomePage() {
         </div>
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Hi, I'm <span className="text-blue-600">Shivam Sinha</span>
+          Hi, I&apos;m <span className="text-blue-600">Shivam Sinha</span>
         </h1>
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
